@@ -1,0 +1,55 @@
+
+.submit {
+  color:black;
+  font-size:1em;
+  font-family:Raleway;
+  width:80px;
+  height:40px;
+  text-align:center;
+  color:white;
+  background-color:rgb(255,100,100);
+  border-radius:10px;
+  border-width:1px;
+  border-color:black;
+}
+.submit:hover {
+  background-color:rgb(255,40,40);
+}
+.textbox {
+  width:200px;
+  height:40px;
+  font-size:1em;
+  font-family:Raleway;
+  border-color:black;
+  border-width:1px;
+  border-radius:10px;
+}
+.textboxnameemail-outside {
+  padding-bottom:10px;
+}
+.textboxnameemail-inside {
+  width:200px;
+  height:40px;
+  font-size:1em;
+  font-family:Raleway;
+  border-color:black;
+  border-width:1px;
+  border-radius:10px;
+}
+.textboxmessage {
+  width:200px;
+  height:200px;
+  font-size:1em;
+  font-family:Raleway;
+  border-color:black;
+  border-width:1px;
+  border-radius:10px;
+}
+.text {
+  font-size:1.2em;
+  font-family:Raleway;
+  font-weight:bold;
+}
+.emailcontact {
+  padding:40px;
+}

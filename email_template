@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Newsletter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div>
+    <script type="text/javascript">
+    var submitted=false;
+    </script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+    onload="if(submitted) {window.location='http://faroukmarhaba.com';}">
+    </iframe>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfk3FFUwSLeVSMe07gCu_1i-FMjfYPUqX9Qi55zF4TcBno1ag/formResponse" method="post" target="hidden_iframe"
+    onsubmit="submitted=true;">
+  </div>
+
+  <div>
+    Email Newsletter
+  </div>
+
+  <div>
+    Enter your email below to receive updates about what&#39;s going on at Project Break The Cycle!
+  </div>
+
+  <div>
+    Email address
+  </div>
+
+  <div>
+    <input type="email" autocomplete="email" aria-label="Your email" name="emailAddress">
+  </div>
+
+  <div>
+    Your email
+  </div>
+
+  <div>
+    Press Enter
+  </div>
+
+</body>
+</html>

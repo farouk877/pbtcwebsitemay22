@@ -1,0 +1,41 @@
+<head>
+  <link href="pages.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<div class="fade2">
+
+
+<!-- START: Menu toggle button javascript-->
+<button class="accordion">Menu</button>
+<div class="panel" id="menu">
+  <a href="menu.html"><div class="fade1" id="block1">Home</div></a>
+  <a href="story.html"><div class="fade2" id="block2">Story</div></a>
+  <a href="overview.html"><div class="fade3" id="block3">Overview</div></a>
+  <a href="missionstatement.html"><div class="fade4" id="block4">Mission Statement</div></a>
+  <a href="background.html"><div class="fade5" id="block5">Background</div></a>
+  <a href="impact.html"><div class="fade6" id="block6">Impact</div></a>
+  <a href="donate.html"><div class="fade7" id="block7">Donate</div></a>
+  <a href="shop.html"><div class="fade8" id="block8">Shop</div></a>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+<!-- END: Menu toggle button javascript-->
+
+<div id="h1">Mission Statement</div>
+
+</div>

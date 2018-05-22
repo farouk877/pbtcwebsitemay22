@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#slide {
+  margin-top: 13%;
+}
+
+#logo img{
+    display: block;
+    margin: 0 auto;
+    max-width:100%;
+    height:auto;
+    animation: fadein 2s;
+}
+
+#enterButton {
+    font-size: 2em;
+    padding: 1rem;
+    max-width: 10rem;
+    text-align:center;
+    margin: 0 auto;
+    animation: 4s ease 0s normal forwards 1 fadein;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Helvetica;
+}
+
+#enterButton:hover {
+  color: white;
+  background-color:rgb(255,120,120);
+  border-color: rgb(255,120,120);
+}
+
+@keyframes fadein {
+    from { opacity: 0.5; }
+    to { opacity: 1; }
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
